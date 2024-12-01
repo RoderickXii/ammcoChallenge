@@ -1,0 +1,14 @@
+{
+  "name": "ammcochallenge",
+  "version": "1.0.0",
+  "description": "This is Roderick de Leon's approach to Ammco's Coding assignment.",
+  "main": "./build/index.js",
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
