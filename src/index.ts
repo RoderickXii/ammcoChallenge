@@ -1,4 +1,4 @@
-class User {
+export class User {
   name: string;
   movies: string[];
   friends: Set<User>;
@@ -18,7 +18,7 @@ class User {
   }
 }
 
-class facebookNetwork {
+export class facebookNetwork {
   findMostPopularMovie(user: User): string | null {
     const movieCounter = new Map<string, number>()
     const prevVisited = new Set<User>();
